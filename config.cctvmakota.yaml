@@ -1,0 +1,191 @@
+# CCTVMAKOTA - konfigurasi aktif (5 kamera sekitar UB). Bisa ditulis ulang dari Dashboard Admin > Simpan ke config.
+supabase:
+  url: https://xjsvtgxphbysxcwsakik.supabase.co
+  service_key: ${SUPABASE_SERVICE_KEY}
+admin_token: ${ADMIN_TOKEN}
+timezone: Asia/Jakarta
+cctv_poll_interval_seconds: 30
+cctv_ffmpeg_timeout: 20
+# yolo11s fine-tune CCTV Malang (~5 ms/frame); ganti ke models/yolo11x.pt bila perlu
+detect:
+  model: runs/yolo11s_malang_live/weights/best.pt
+  imgsz: 960
+  enhance: auto
+  tiles: 2x3        # frame penuh + 6 potongan: kendaraan kecil/jauh ikut terdeteksi (~55 ms/frame). off = mati
+  conf: 0.25
+  iou: 0.65
+queue_size: 1
+queue_max_age_seconds: 20
+queue_concurrency: 1
+atcs:
+  routes:
+  - id: route_ns_main
+    name: Koridor Utara-Selatan (Via Gajayana)
+    nodes:
+    - JlGajayanaArahUtaraSardo-CCTV
+    - JlVeteranArahTimur-CCTV
+    capacity_veh_per_hour: 1200
+    baseline_traveltime_minutes: 5.0
+    distance_km: 2.1
+    path: []
+    direction: dua_arah
+    alternatives: []
+  - id: route_ew_main
+    name: Koridor Timur-Barat (Via Haryono)
+    nodes:
+    - JlMtHaryonoArahBarat-CCTV
+    capacity_veh_per_hour: 1100
+    baseline_traveltime_minutes: 6.0
+    distance_km: 2.4
+  - id: route_bypass
+    name: Jalur Bypass (Via Sumber Sari)
+    nodes:
+    - JlSumberSariArahUtara-CCTV
+    capacity_veh_per_hour: 800
+    baseline_traveltime_minutes: 8.0
+    distance_km: 2.8
+  primary_route: route_ns_main
+  activation_rules:
+    vc_threshold: 0.85
+    status_threshold: MACET
+    objective: fastest
+locations:
+  JlVeteranArahTimur-CCTV:
+    mode: cctv
+    cctv_snapshot_url: https://stream.24hour.id/proxy.php?id=636589114401733445781917
+    cctv_stream_type: hls
+    device_id: cctv-lwk-11
+    label: Jl. Veteran Arah Timur
+    lat: -7.953
+    lng: 112.614
+    calibration_max_count: 25
+    density_low: 6
+    density_high: 18
+    roi_label: Jalur Utama ke Kampus
+    roi:
+    - - 0.143
+      - 0.1399
+    - - 0.9826
+      - 0.5306
+    - - 0.9826
+      - 0.1835
+    roi2:
+    - - 0.0192
+      - 0.2044
+    - - 0.9772
+      - 0.8834
+    - - 0.7895
+      - 1.0
+    - - 0.0064
+      - 0.9763
+  JlMtHaryonoArahBarat-CCTV:
+    mode: cctv
+    cctv_snapshot_url: https://stream.24hour.id/proxy.php?id=446907421280943044413749
+    cctv_stream_type: hls
+    device_id: cctv-lwk-10
+    label: Jl. MT Haryono Arah Barat
+    lat: -7.9445
+    lng: 112.6065
+    calibration_max_count: 25
+    density_low: 6
+    density_high: 18
+    roi_label: Jalur Belok Timur
+    roi:
+    - - 0.0085
+      - 0.0204
+    - - 0.0117
+      - 0.9498
+    - - 0.9804
+      - 0.9156
+    - - 0.9911
+      - 0.0507
+  JlGajayanaArahUtaraSardo-CCTV:
+    mode: cctv
+    cctv_snapshot_url: https://stream.24hour.id/proxy.php?id=455597782591873967365987
+    cctv_stream_type: hls
+    device_id: cctv-lwk-06
+    label: Jl. Gajayana Arah Utara (Sardo)
+    lat: -7.9455
+    lng: 112.6035
+    calibration_max_count: 25
+    density_low: 6
+    density_high: 18
+    roi_label: Jalur Sardo
+    roi:
+    - - 0.7852
+      - 0.3333
+    - - 0.4534
+      - 0.9611
+    - - 0.7713
+      - 0.9801
+    - - 0.861
+      - 0.3504
+    roi2:
+    - - 0.7084
+      - 0.2025
+    - - 0.111
+      - 0.8796
+    - - 0.4374
+      - 0.9099
+    - - 0.7777
+      - 0.3087
+  JlSoekarnoHattaArahSelatan-CCTV:
+    mode: cctv
+    cctv_snapshot_url: https://stream.24hour.id/proxy.php?id=227920422769509645238654
+    cctv_stream_type: hls
+    device_id: cctv-lwk-05
+    label: Jl. Soekarno Hatta Arah Selatan
+    lat: -7.9423
+    lng: 112.6217
+    calibration_max_count: 25
+    density_low: 6
+    density_high: 18
+    roi_label: Jalur Soekarno Hatta
+    roi:
+    - - 0.3329
+      - 0.0906
+    - - 0.0011
+      - 0.4377
+    - - 0.335
+      - 0.6387
+    - - 0.3777
+      - 0.1209
+    roi2:
+    - - 0.4694
+      - 0.2006
+    - - 0.7511
+      - 0.817
+    - - 0.9687
+      - 0.6937
+    - - 0.5388
+      - 0.1759
+  JlSumberSariArahUtara-CCTV:
+    mode: cctv
+    cctv_snapshot_url: https://stream.24hour.id/proxy.php?id=639466428930627267991858
+    cctv_stream_type: hls
+    device_id: cctv-lwk-25
+    label: Jl. Sumber Sari Arah Utara
+    lat: -7.949
+    lng: 112.617
+    calibration_max_count: 25
+    density_low: 6
+    density_high: 18
+    roi_label: Jalur Sumber Sari
+    roi:
+    - - 0.6262
+      - 0.0925
+    - - 0.3777
+      - 0.4054
+    - - 0.8908
+      - 0.9782
+    - - 1.0
+      - 0.2745
+    roi2:
+    - - 0.6262
+      - 0.1001
+    - - 0.3862
+      - 0.4016
+    - - 0.8919
+      - 0.9574
+    - - 0.989
+      - 0.2745
