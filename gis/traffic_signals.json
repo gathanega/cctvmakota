@@ -1,0 +1,649 @@
+[
+{
+"id": 0,
+"lat": -7.94312,
+"lng": 112.6103,
+"roads": [
+"Jalan Gajayana",
+"Jalan Mayor Jenderal M. T. Haryono",
+"Jalan Mayor Jenderal M.T. Haryono"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 1,
+"lat": -7.93951,
+"lng": 112.62496,
+"roads": [
+"Jalan Candi Panggung",
+"Jalan Soekarno-Hatta",
+"Jalan Terusan Candi Mendut"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 2,
+"lat": -7.95669,
+"lng": 112.61278,
+"roads": [
+"Jalan Bendungan Sigura-Gura",
+"Jalan Bendungan Sutami",
+"Jalan Sigura - Gura",
+"Jalan Sumbersari",
+"Jalan Veteran"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 3,
+"lat": -7.96471,
+"lng": 112.62774,
+"roads": [
+"Jalan Brigadir Jenderal Slamet Riyadi",
+"Jalan Panggung"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 4,
+"lat": -7.9656,
+"lng": 112.62536,
+"roads": [
+"Jalan Panggung",
+"Jalan Simpang Balapan"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 5,
+"lat": -7.95115,
+"lng": 112.61685,
+"roads": [
+"Jalan Mayor Jenderal Donald Isaac Panjaitan",
+"Jalan Mayor Jenderal M. T. Haryono"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 6,
+"lat": -7.95784,
+"lng": 112.62337,
+"roads": [
+"Jalan Bogor",
+"Jalan Mayor Jenderal Donald Isaac Panjaitan",
+"Jalan Terusan Bogor"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 7,
+"lat": -7.96505,
+"lng": 112.61639,
+"roads": [
+"Jalan Jombang",
+"Jalan Surabaya",
+"Jalan Terusan Surabaya"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 8,
+"lat": -7.95968,
+"lng": 112.63206,
+"roads": [
+"Jalan Sarangan",
+"Jalan Tawangmangu"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 9,
+"lat": -7.96206,
+"lng": 112.63051,
+"roads": [
+"Jalan Kaliurang",
+"Jalan Kaliurang Barat",
+"Jalan Tawangmangu"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 10,
+"lat": -7.95479,
+"lng": 112.59224,
+"roads": [
+"Jalan Karangampel Timur",
+"Jalan Raya Candi V"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 11,
+"lat": -7.96414,
+"lng": 112.60278,
+"roads": [
+"Jalan Puncak Mandala",
+"Jalan Puncak Yamin",
+"Jalan Tokala"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 12,
+"lat": -7.96295,
+"lng": 112.60174,
+"roads": [
+"Jalan Bukit Tanggul",
+"Jalan Esberg",
+"Jalan Puncak Yamin"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 13,
+"lat": -7.96071,
+"lng": 112.59901,
+"roads": [
+"Jalan Esberg",
+"Jalan Himalaya",
+"Jalan Puncak Esberg",
+"Jalan Puncak Tidar"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 14,
+"lat": -7.95475,
+"lng": 112.63328,
+"roads": [
+"Jalan Mawar",
+"Jalan Selorejo",
+"Jalan Seruni",
+"Jalan Setaman"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 15,
+"lat": -7.93876,
+"lng": 112.61188,
+"roads": [
+"Jalan Pisang Kipas",
+"Jalan Vinolia"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 16,
+"lat": -7.94539,
+"lng": 112.62075,
+"roads": [
+"Jalan Bunga Coklat",
+"Jalan Bunga Kopi",
+"Jalan Cengkeh",
+"Jalan Karet"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 17,
+"lat": -7.94457,
+"lng": 112.61951,
+"roads": [
+"Jalan Bunga Coklat",
+"Jalan Soekarno-Hatta"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 18,
+"lat": -7.93304,
+"lng": 112.61329,
+"roads": [
+"Jalan Akordion",
+"Jalan Akordion Barat",
+"Jalan Akordion Selatan",
+"Jalan Akordion Timur",
+"Jalan Simpang Akordion"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 19,
+"lat": -7.94168,
+"lng": 112.6013,
+"roads": [
+"Gang 9",
+"Jalan Joyo Suryo",
+"Jalan Joyo Utomo",
+"Jalan Joyosari"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 20,
+"lat": -7.94348,
+"lng": 112.60389,
+"roads": [
+"Jalan Joyo Tambaksari",
+"Jalan Joyo Utomo",
+"Jalan Mertojoyo Selatan",
+"Jalan Mertojoyo Utara"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 21,
+"lat": -7.93921,
+"lng": 112.6019,
+"roads": [
+"Jalan Joyo Pranoto",
+"Jalan Joyo Suryo",
+"Jalan Tlogo Indah"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 22,
+"lat": -7.93893,
+"lng": 112.60595,
+"roads": [
+"Jalan Joyo Raharjo",
+"Jalan Mayor Jenderal M. T. Haryono Gang 15",
+"Jalan Mayor Jenderal M.T. Haryono Gang 15",
+"Jalan Mertojoyo Utara"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 23,
+"lat": -7.93601,
+"lng": 112.60534,
+"roads": [
+"Jalan Mayor Jenderal M.T. Haryono",
+"Jalan Tlogo Indah",
+"Jalan Tlogomas"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 24,
+"lat": -7.94752,
+"lng": 112.62466,
+"roads": [
+"Jalan Cengkeh",
+"Jalan Dewandaru",
+"Jalan Kaca Piring",
+"Jalan Kalpataru"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 25,
+"lat": -7.93435,
+"lng": 112.61509,
+"roads": [
+"Jalan Akordion Timur",
+"Jalan Candi Panggung"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 26,
+"lat": -7.95206,
+"lng": 112.63185,
+"roads": [
+"Jalan Bungur",
+"Jalan Melati",
+"Jalan Terusan Wijaya Kusuma",
+"Jalan Wijaya Kusuma"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 27,
+"lat": -7.95449,
+"lng": 112.63177,
+"roads": [
+"Jalan Bungur",
+"Jalan Melati",
+"Jalan Seruni"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 28,
+"lat": -7.95676,
+"lng": 112.63158,
+"roads": [
+"Jalan Bungur",
+"Jalan Cempaka",
+"Jalan Melati",
+"Jalan Wora Wari"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 29,
+"lat": -7.95777,
+"lng": 112.6317,
+"roads": [
+"Jalan Bungur",
+"Jalan Locari",
+"Jalan Mawar"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 30,
+"lat": -7.95996,
+"lng": 112.62169,
+"roads": [
+"Jalan Bandung",
+"Jalan Bogor",
+"Jalan Veteran"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 31,
+"lat": -7.94712,
+"lng": 112.60885,
+"roads": [
+"Jalan Gajayana",
+"Jalan Simpang Gajayana"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 32,
+"lat": -7.94999,
+"lng": 112.6155,
+"roads": [
+"Jalan Mayor Jenderal M. T. Haryono",
+"Jalan Soekarno-Hatta"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 33,
+"lat": -7.94477,
+"lng": 112.6069,
+"roads": [
+"Jalan Joyo Tambaksari",
+"Jalan Simpang Gajayana"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 34,
+"lat": -7.9411,
+"lng": 112.59742,
+"roads": [
+"Jalan Joyo Agung",
+"Jalan Joyosari"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 35,
+"lat": -7.96456,
+"lng": 112.63497,
+"roads": [
+"Jalan Jaksa Agung Suprapto",
+"Jalan Kaliurang",
+"Jalan Letnan Jenderal Sutoyo Siswomiharjo",
+"Jalan Wage Rudolf Supratman"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 36,
+"lat": -7.96335,
+"lng": 112.62538,
+"roads": [
+"Jalan Ijen",
+"Jalan Jakarta",
+"Jalan Raung",
+"Jalan Simpang Ijen"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 37,
+"lat": -7.95769,
+"lng": 112.60767,
+"roads": [
+"Jalan Bendungan Sigura-Gura",
+"Jalan Bendungan Sigura-Gura Barat",
+"Jalan Bendungan Sigura-Gura VI",
+"Jalan Terusan Sigura-Gura"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 38,
+"lat": -7.95405,
+"lng": 112.6068,
+"roads": [
+"Jalan Bendungan Sigura-Gura Barat",
+"Jalan Sunan Kalijaga",
+"Jalan Sunan Muria",
+"Jalan Sunan Pandanaran"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 39,
+"lat": -7.94741,
+"lng": 112.60547,
+"roads": [
+"Jalan Joyosuko Timur",
+"Jalan Mertojoyo Selatan",
+"Jalan Simpang Gajayana",
+"Jalan Sunan Kalijaga"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 40,
+"lat": -7.96395,
+"lng": 112.61351,
+"roads": [
+"Jalan Bendungan Sutami",
+"Jalan Galunggung",
+"Jalan Terusan Surabaya"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 41,
+"lat": -7.96671,
+"lng": 112.61936,
+"roads": [
+"Jalan Jakarta",
+"Jalan Simpang Ijen",
+"Jalan Surabaya"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 42,
+"lat": -7.96355,
+"lng": 112.62182,
+"roads": [
+"Jalan Bogor",
+"Jalan Jakarta",
+"Jalan Simpang Ijen"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 43,
+"lat": -7.95118,
+"lng": 112.63265,
+"roads": [
+"Jalan Kalpataru",
+"Jalan Kedawung"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 44,
+"lat": -7.95083,
+"lng": 112.63167,
+"roads": [
+"Jalan Bungur",
+"Jalan Jengger Ayam",
+"Jalan Kalpataru"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 45,
+"lat": -7.93836,
+"lng": 112.60696,
+"roads": [
+"Jalan Mayor Jenderal M. T. Haryono Gang 15",
+"Jalan Mayor Jenderal M.T. Haryono"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 46,
+"lat": -7.935,
+"lng": 112.61313,
+"roads": [
+"Jalan Simpang Candi Panggung",
+"Jalan Vinolia"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 47,
+"lat": -7.93129,
+"lng": 112.61101,
+"roads": [
+"Jalan Akordion Barat",
+"Jalan Bunga Desember",
+"Jalan Saxophone"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 48,
+"lat": -7.95891,
+"lng": 112.63113,
+"roads": [
+"Jalan Mawar",
+"Jalan Sarangan",
+"Jalan Sendang Biru"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 49,
+"lat": -7.96589,
+"lng": 112.63424,
+"roads": [
+"Jalan Jaksa Agung Suprapto",
+"Jalan Jaksa Agung Suprapto III",
+"Jalan Robert Wolter Mongisidi"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 50,
+"lat": -7.9393,
+"lng": 112.63282,
+"roads": [
+"Jalan Borobudur",
+"Jalan Candi Sari Utara",
+"Jalan Candi Trowulan",
+"Jalan Soekarno-Hatta"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 51,
+"lat": -7.95928,
+"lng": 112.59915,
+"roads": [
+"Jalan Himalaya",
+"Jalan Puncak Himalaya"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 52,
+"lat": -7.96225,
+"lng": 112.62556,
+"roads": [
+"Jalan Bandung",
+"Jalan Ijen"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 53,
+"lat": -7.94413,
+"lng": 112.61884,
+"roads": [
+"Jalan Bunga Coklat",
+"Jalan Kesuma Dalam",
+"Jalan Pisang Kipas"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 54,
+"lat": -7.94733,
+"lng": 112.61326,
+"roads": [
+"Jalan Mayor Jenderal M. T. Haryono",
+"Jalan Mayor Jenderal M.T. Haryono"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 55,
+"lat": -7.93589,
+"lng": 112.62767,
+"roads": [
+"Jalan Ikan Tombro",
+"Jalan Sudimoro"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 56,
+"lat": -7.93445,
+"lng": 112.61317,
+"roads": [
+"Jalan Akordion Selatan",
+"Jalan Vinolia"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 57,
+"lat": -7.93684,
+"lng": 112.62639,
+"roads": [
+"Jalan Puncak Borobudur",
+"Jalan Soekarno-Hatta",
+"Jalan Sudimoro"
+],
+"source": "simpang_jalan_utama"
+},
+{
+"id": 58,
+"lat": -7.95195,
+"lng": 112.60914,
+"roads": [
+"Jalan Gajayana",
+"Jalan Sumbersari"
+],
+"source": "simpang_jalan_utama"
+}
+]

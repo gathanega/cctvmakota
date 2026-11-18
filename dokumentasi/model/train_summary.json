@@ -1,0 +1,85 @@
+{
+  "base_model": "E:\\Gathan folder\\flowincheck-main\\models\\yolo11s.pt",
+  "freeze": 0,
+  "epochs": 100,
+  "imgsz": 960,
+  "dataset": {
+    "train": {
+      "images": 584,
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "per_class": {
+        "0": 2080,
+        "1": 880,
+        "2": 20,
+        "3": 664
+      },
+      "total_boxes": 3644
+    },
+    "val": {
+      "images": 143,
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "per_class": {
+        "0": 509,
+        "1": 176,
+        "2": 5,
+        "3": 141
+      },
+      "total_boxes": 831
+    }
+  },
+  "val": {
+    "mp": 0.5911088571881983,
+    "mr": 0.46472384881884876,
+    "map50": 0.5588238075713552,
+    "map": 0.44191309426135605,
+    "per_class": [
+      {
+        "class": "car",
+        "p": 0.8183215520684908,
+        "r": 0.5324165029469549,
+        "map50": 0.6835826185072771,
+        "map50_95": 0.540517411868877
+      },
+      {
+        "class": "motorcycle",
+        "p": 0.7652209707353859,
+        "r": 0.5681818181818182,
+        "map50": 0.7143883597648865,
+        "map50_95": 0.46166938154168086
+      },
+      {
+        "class": "bus",
+        "p": 0.0,
+        "r": 0.0,
+        "map50": 0.005735294117647059,
+        "map50_95": 0.0017205882352941174
+      },
+      {
+        "class": "truck",
+        "p": 0.7808929059489165,
+        "r": 0.7582970741466221,
+        "map50": 0.83158895789561,
+        "map50_95": 0.763744995399572
+      }
+    ]
+  },
+  "live": {
+    "frames": 200,
+    "frames_with_detection": 200,
+    "total": 1472,
+    "avg_per_frame": 7.36,
+    "ms_per_frame": 12.443656921386719,
+    "per_class": {
+      "car": 756,
+      "motorcycle": 405,
+      "bus": 8,
+      "truck": 303
+    }
+  },
+  "best_pt": "E:\\Gathan folder\\flowincheck-main\\runs\\yolo11s_malang_live\\weights\\best.pt",
+  "csv": "E:\\Gathan folder\\flowincheck-main\\Output\\reports\\train_malang_live_20261118_231646.csv",
+  "pdf": "E:\\Gathan folder\\flowincheck-main\\Output\\reports\\train_malang_live_report_20261118_231646.pdf",
+  "duration_minutes": 17.83
+}
